@@ -1,14 +1,15 @@
 arch:
  - amd64
  - ppc64le
+ 
 language: python
 python:
     - "2.7"
     - "3.5"
     - "3.6"
     - "3.7"
- jobs:
-  exclude:
+jobs:
+ exclude:
     - python: "2.7"
       arch: ppc64le
 
